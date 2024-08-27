@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Decodificador</title>
+    <link rel="stylesheet" href="./style/style.css">
+</head>
+<body>
+
+    <main class="main container">
+        <header class="cabecalho">
+            <img src="./assets/logo_alura.png" alt="menina">
+            <h1>Palavras Codificadas</h1>
+        </header>
+   
+     <div class="container-input">
+        <div class="inputa">
+            <textarea id="input-texto" placeholder="Digite o seu texto aqui..." ></textarea>
+            <p>OBS: Apenas letras minúsculas e sem acento</p>
+        </div>
+        <div id="output">
+            <img class="menina"  src="./assets/menina.png" alt="menina">
+            <h2>Sua mensagem codificada aparecerá aqui</h2>
+            <span>Digite o texto que você queira criptografar ou descpitografar...</span>
+        </div>
+        </div>
+
+    <div class="Buttons">
+        <div class="container-btn">
+            <button onclick="criptografar()" class="btn-ciptografar">Ciptografar</button>
+            <button onclick="descriptografar()" class="btn-descriptografar">Descriptografar</button>
+        </div>
+    </div>
+    </main>
+
+    <footer class="rodape">
+        <p class="rodape__texto">Desenvolvido por Emilyn Santos</p>
+    </footer>
+    
+    <script src="interacao/script.js"></script>
+</body>
+</html>
